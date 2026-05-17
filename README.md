@@ -18,9 +18,9 @@ Prediction
 
 A prediction model was built to predict the susceptibility of employees attrition. As a first step, 80% of the dataset was partitioned into a training set and the remaining 20% was partitioned for testing. The column ‘Attrition’, whose binary value specified whether or not attrition of the employee took place, was considered as the target column. Various classifiers were implemented, such as:
 
-Logistic Regression
-Decision Tree
-Random Forest
-Recommendation
+1. Logistic Regression
+2. Decision Tree
+3. Random Forest
+4. Recommendation
 
 A recommendation system was built for providing the employer with recommendations of how attrition can be prevented for a newly input record of an employee. The causes for attrition and recommendations provided for the new record are identified through other most similar employee records using SHAP index and user-based collaborative filtering technique.
