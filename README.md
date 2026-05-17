@@ -21,6 +21,7 @@ A prediction model was built to predict the susceptibility of employees attritio
 1. Logistic Regression
 2. Decision Tree
 3. Random Forest
-4. Recommendation
+
+Recommendation
 
 A recommendation system was built for providing the employer with recommendations of how attrition can be prevented for a newly input record of an employee. The causes for attrition and recommendations provided for the new record are identified through other most similar employee records using SHAP index and user-based collaborative filtering technique.
